@@ -56,5 +56,7 @@ func (al ArgumentList) Validate() error {
 		}
 	}
 
+	log.Info("Able to validate CustomMetricsQuery")
+
 	return nil
 }
